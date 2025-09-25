@@ -79,7 +79,7 @@ const AuthWorking = () => {
     <div 
       className="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat relative"
       style={{
-        backgroundImage: `url('https://FiveM Database.com/cdn/VelocityNetwork/banners/background.png')`
+        backgroundImage: `url('https://cdn.fivemdb.net/cdn/VelocityNetwork/banners/background.png')`
       }}
     >
       {/* Overlay */}
