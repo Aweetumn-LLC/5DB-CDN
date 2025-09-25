@@ -1,67 +1,56 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, ArrowLeft, Globe, Shield, Zap, Users } from "lucide-react";
+import { ExternalLink, ArrowLeft, Zap, Users, Database, Earth, ChartArea } from "lucide-react";
 
 const websites = [
   {
-    name: "FiveMDB.net",
-    url: "https://fivemdb.net",
-    description: "Premier FiveM server database and community platform",
-    category: "Gaming & Community"
+  name: "FiveM Database (.net domain)",
+  url: "https://fivemdb.net",
+  description: "The platform Leading Database to assist you as a server owner, creator, developer and player understanding compliance and what is right and wrong.",
+  category: "Guidance tools, complaince and assistance"
   },
   {
-    name: "FiveMDB.online", 
-    url: "https://fivemdb.online",
-    description: "Online extension of the FiveM database ecosystem",
-    category: "Gaming & Community"
-  },
-  {
-    name: "Nexora Data Ltd.",
-    url: "https://nexoradata.ltd",
-    description: "Enterprise data solutions and analytics platform",
-    category: "Business & Analytics"
-  },
-  {
-    name: "Creator Justice",
-    url: "https://creatorjustice.org",
-    description: "Digital rights advocacy and creator protection platform",
-    category: "Legal & Advocacy"
+  name: "FiveM Database (.online domain)",
+  url: "https://fivemdb.Online",
+  description: "The platform Leading Database to assist you as a server owner, creator, developer and player understanding compliance and what is right and wrong.",
+  category: "Guidance tools, complaince and assistance"
   }
 ];
 
 const stats = [
-  {
-    icon: Globe,
-    label: "Global Reach",
-    value: "99.9%",
-    description: "Uptime guarantee"
-  },
-  {
-    icon: Zap,
-    label: "Lightning Fast", 
-    value: "<50ms",
-    description: "Average response time"
-  },
-  {
-    icon: Shield,
-    label: "Enterprise Security",
-    value: "SSL/TLS",
-    description: "End-to-end encryption"
-  },
-  {
-    icon: Users,
-    label: "Trusted By",
-    value: "1000+",
-    description: "Active websites"
-  }
+   {
+     icon: Users,
+     label: "Trusted By",
+     value: "2,500+",
+     description: "Weekly Users"
+   },
+   {
+     icon: Database,
+     label: "Data Stored",
+     value: "3.5 TiB",
+     description: "on FiveM Database"
+   },
+   {
+     icon: Earth,
+     label: "Utilised in over",
+     value: "150+",
+     description: "Diffirent countries"
+   },
+   {
+     icon: ChartArea,
+     label: "Total Visitors",
+     value: "1,500,000+",
+     description: "Globaly"
+   }
+
 ];
 
 const Showcase = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    document.title = "Showcase - Websites Using FiveM Database CDN";
+    document.title = "Showcase - FiveM Database CDN Information";
   }, []);
 
   return (
@@ -80,7 +69,7 @@ const Showcase = () => {
             </Button>
             <div className="h-6 w-px bg-border/50" />
             <h1 className="text-3xl font-bold text-gradient">
-              Websites Using FiveM Database CDN
+              Showcase - FiveM Database CDN Information
             </h1>
           </div>
         </div>
@@ -92,11 +81,12 @@ const Showcase = () => {
         <div className="text-center mb-16">
           <div className="elegant-card inline-block px-8 py-6 rounded-2xl mb-6">
             <h2 className="text-4xl font-black mb-4 text-gradient">
-              Trusted by Industry Leaders
+              FiveM Database's Official Self Created CDN
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl">
-              From gaming platforms to enterprise solutions, discover the websites 
-              that rely on FiveM Database CDN for their content delivery needs.
+              From a FiveM Server owner, to a creator to a platform that has helped over 1,000+ Users on the platform 
+              stay safe and help them avoid being scammed, damaged or harmed by creators that have stolen work and damaged
+              the platforms Eco-System
             </p>
           </div>
         </div>
@@ -162,19 +152,19 @@ const Showcase = () => {
         <div className="text-center mt-16">
           <div className="elegant-card p-12 rounded-2xl max-w-3xl mx-auto">
             <h3 className="text-3xl font-bold text-gradient mb-4">
-              Ready to Join Them?
+              Ready to feel the change?
             </h3>
             <p className="text-lg text-muted-foreground mb-8">
-              Experience the same premium content delivery that powers these industry-leading websites.
+              Experience the same premium content delivery that powers our websites and Projects.
             </p>
             <div className="flex gap-4 justify-center">
               <Button size="lg" className="elegant-button" onClick={() => navigate("/")}>
                 <Zap className="h-5 w-5 mr-2" />
-                Start Using CDN
+                Start Browsing CDN
               </Button>
-              <Button variant="outline" size="lg" className="elegant-button" onClick={() => navigate("/auth")}>
+              {/* <Button variant="outline" size="lg" className="elegant-button" onClick={() => navigate("/auth")}>
                 Get Enterprise Access
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
