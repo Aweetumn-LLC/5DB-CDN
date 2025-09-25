@@ -52,8 +52,8 @@ const AuthButton = () => {
 
   return (
     <Button asChild>
-      <Link to="/auth">
-        Login / Sign Up
+      <Link to="https://github.com/Aweetumn-LLC/5DB-CDN">
+        Github
       </Link>
     </Button>
   );
