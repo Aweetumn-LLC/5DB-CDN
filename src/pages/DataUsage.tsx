@@ -5,16 +5,16 @@ import { ArrowLeft } from "lucide-react";
 
 const DataUsage = () => {
   useEffect(() => {
-    document.title = "Data Usage Policy - ZWRKS CDN | Privacy & Data Protection";
+    document.title = "Data Usage Policy - FiveM Database CDN | Privacy & Data Protection";
     
     // SEO meta tags
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'ZWRKS CDN Data Usage Policy - Learn how we collect, store, process, and protect your personal data in compliance with privacy regulations.');
+      metaDescription.setAttribute('content', 'FiveM Database CDN Data Usage Policy - Learn how we collect, store, process, and protect your personal data in compliance with privacy regulations.');
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'ZWRKS CDN Data Usage Policy - Learn how we collect, store, process, and protect your personal data in compliance with privacy regulations.';
+      meta.content = 'FiveM Database CDN Data Usage Policy - Learn how we collect, store, process, and protect your personal data in compliance with privacy regulations.';
       document.head.appendChild(meta);
     }
   }, []);
@@ -33,13 +33,13 @@ const DataUsage = () => {
       </header>
 
       <main className="flex-1 container py-8 max-w-4xl">
-        <h1 className="text-4xl font-bold mb-8 text-center">ZWRKS CDN – Data Usage Policy</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center">FiveM Database CDN – Data Usage Policy</h1>
         
         <div className="space-y-8 text-left">
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">1. Purpose and Scope</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">1.1</span> This Data Usage Policy governs the collection, storage, processing, and disclosure of personal data by ZWRKS CDN ("the Service").</p>
+              <p><span className="font-medium">1.1</span> This Data Usage Policy governs the collection, storage, processing, and disclosure of personal data by FiveM Database CDN ("the Service").</p>
               <p><span className="font-medium">1.2</span> By using the Service, you consent to the practices described herein, in addition to our Terms of Service and Usage Policy.</p>
             </div>
           </section>
@@ -47,7 +47,7 @@ const DataUsage = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">2. Data Collected</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">2.1</span> ZWRKS CDN may collect and store the following categories of data:</p>
+              <p><span className="font-medium">2.1</span> FiveM Database CDN may collect and store the following categories of data:</p>
               <ul className="list-none ml-6 space-y-1">
                 <li>a) Account Information – including usernames, email addresses, and associated credentials;</li>
                 <li>b) Usage Data – including IP addresses, access logs, and file upload activity;</li>
@@ -72,7 +72,7 @@ const DataUsage = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">4. Data Security</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">4.1</span> ZWRKS CDN employs industry-standard technical and organisational measures to protect data from unauthorised access, disclosure, alteration, or destruction.</p>
+              <p><span className="font-medium">4.1</span> FiveM Database CDN employs industry-standard technical and organisational measures to protect data from unauthorised access, disclosure, alteration, or destruction.</p>
               <p><span className="font-medium">4.2</span> While we strive to maintain secure systems, no method of electronic storage or transmission is entirely immune to breaches. Users acknowledge this risk by using the Service.</p>
             </div>
           </section>
@@ -80,14 +80,14 @@ const DataUsage = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">5. Data Disclosure and Legal Requests</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">5.1</span> ZWRKS CDN will not sell, rent, or trade user data to any third party.</p>
+              <p><span className="font-medium">5.1</span> FiveM Database CDN will not sell, rent, or trade user data to any third party.</p>
               <p><span className="font-medium">5.2</span> We may disclose user data, including usernames and email addresses, only in the following circumstances:</p>
               <ul className="list-none ml-6 space-y-1">
                 <li>a) In response to a valid request by a governmental authority, law enforcement agency, or regulatory body;</li>
                 <li>b) Pursuant to a binding judicial order or other lawful process issued by a court of competent jurisdiction;</li>
                 <li>c) Where disclosure is required to comply with applicable law.</li>
               </ul>
-              <p><span className="font-medium">5.3</span> Users acknowledge and agree that ZWRKS CDN is legally required to provide such data in the circumstances described above and that such disclosures shall not constitute a breach of this Policy.</p>
+              <p><span className="font-medium">5.3</span> Users acknowledge and agree that FiveM Database CDN is legally required to provide such data in the circumstances described above and that such disclosures shall not constitute a breach of this Policy.</p>
             </div>
           </section>
 
@@ -108,14 +108,14 @@ const DataUsage = () => {
                 <li>b) Request correction of inaccurate or incomplete data;</li>
                 <li>c) Request deletion of data, except where retention is required by law or ongoing legal proceedings.</li>
               </ul>
-              <p><span className="font-medium">7.2</span> All such requests must be submitted in writing to ZWRKS CDN via the contact details provided on our website.</p>
+              <p><span className="font-medium">7.2</span> All such requests must be submitted in writing to FiveM Database CDN via the contact details provided on our website.</p>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">8. Amendments</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">8.1</span> ZWRKS CDN reserves the right to amend this Data Usage Policy at any time.</p>
+              <p><span className="font-medium">8.1</span> FiveM Database CDN reserves the right to amend this Data Usage Policy at any time.</p>
               <p><span className="font-medium">8.2</span> Continued use of the Service following any amendment constitutes acceptance of the revised Policy.</p>
             </div>
           </section>

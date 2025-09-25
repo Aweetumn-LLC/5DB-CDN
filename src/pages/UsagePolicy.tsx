@@ -5,16 +5,16 @@ import { ArrowLeft } from "lucide-react";
 
 const UsagePolicy = () => {
   useEffect(() => {
-    document.title = "Usage Policy - ZWRKS CDN | Acceptable Use Guidelines";
+    document.title = "Usage Policy - FiveM Database CDN | Acceptable Use Guidelines";
     
     // SEO meta tags
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'ZWRKS CDN Usage Policy - Guidelines for acceptable use, prohibited activities, and user responsibilities for our image hosting service.');
+      metaDescription.setAttribute('content', 'FiveM Database CDN Usage Policy - Guidelines for acceptable use, prohibited activities, and user responsibilities for our image hosting service.');
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'ZWRKS CDN Usage Policy - Guidelines for acceptable use, prohibited activities, and user responsibilities for our image hosting service.';
+      meta.content = 'FiveM Database CDN Usage Policy - Guidelines for acceptable use, prohibited activities, and user responsibilities for our image hosting service.';
       document.head.appendChild(meta);
     }
   }, []);
@@ -33,13 +33,13 @@ const UsagePolicy = () => {
       </header>
 
       <main className="flex-1 container py-8 max-w-4xl">
-        <h1 className="text-4xl font-bold mb-8 text-center">ZWRKS CDN – Usage Policy</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center">FiveM Database CDN – Usage Policy</h1>
         
         <div className="space-y-8 text-left">
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">1. Purpose and Scope</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">1.1</span> This Usage Policy governs all access to and use of the ZWRKS CDN platform ("the Service").</p>
+              <p><span className="font-medium">1.1</span> This Usage Policy governs all access to and use of the FiveM Database CDN platform ("the Service").</p>
               <p><span className="font-medium">1.2</span> By using the Service, you acknowledge and agree to comply fully with this Usage Policy in addition to our Terms of Service.</p>
             </div>
           </section>
@@ -80,7 +80,7 @@ const UsagePolicy = () => {
             <h2 className="text-2xl font-semibold mb-4 text-center">4. User Responsibility and Liability</h2>
             <div className="space-y-2 ml-4">
               <p><span className="font-medium">4.1</span> Users are solely and entirely responsible for all content uploaded under their account or via their access credentials.</p>
-              <p><span className="font-medium">4.2</span> ZWRKS CDN accepts no responsibility or liability for any legal consequences arising from User Content.</p>
+              <p><span className="font-medium">4.2</span> FiveM Database CDN accepts no responsibility or liability for any legal consequences arising from User Content.</p>
               <p><span className="font-medium">4.3</span> Any breach of this Usage Policy may result in:</p>
               <ul className="list-none ml-6 space-y-1">
                 <li>a) Immediate removal of the infringing content;</li>
@@ -93,23 +93,23 @@ const UsagePolicy = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">5. Legal Requests and Content Retention</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">5.1</span> ZWRKS CDN reserves the right to retain or remove content in response to valid legal requests or proceedings, as outlined in our Terms of Service.</p>
-              <p><span className="font-medium">5.2</span> Where legal proceedings are initiated against an uploader, ZWRKS CDN may retain the content in question until the conclusion of such proceedings.</p>
+              <p><span className="font-medium">5.1</span> FiveM Database CDN reserves the right to retain or remove content in response to valid legal requests or proceedings, as outlined in our Terms of Service.</p>
+              <p><span className="font-medium">5.2</span> Where legal proceedings are initiated against an uploader, FiveM Database CDN may retain the content in question until the conclusion of such proceedings.</p>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">6. Disclosure of Information</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">6.1</span> ZWRKS CDN will only disclose user-identifying information, including usernames and email addresses, in compliance with a valid legal request or binding court order.</p>
+              <p><span className="font-medium">6.1</span> FiveM Database CDN will only disclose user-identifying information, including usernames and email addresses, in compliance with a valid legal request or binding court order.</p>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">7. Enforcement and Final Authority</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">7.1</span> ZWRKS CDN reserves sole and absolute discretion to determine whether a user's conduct or content violates this Usage Policy.</p>
-              <p><span className="font-medium">7.2</span> All determinations made by ZWRKS CDN shall be final unless otherwise overruled by a binding judicial decision.</p>
+              <p><span className="font-medium">7.1</span> FiveM Database CDN reserves sole and absolute discretion to determine whether a user's conduct or content violates this Usage Policy.</p>
+              <p><span className="font-medium">7.2</span> All determinations made by FiveM Database CDN shall be final unless otherwise overruled by a binding judicial decision.</p>
             </div>
           </section>
 

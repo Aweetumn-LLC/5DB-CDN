@@ -21,7 +21,7 @@ const Index = () => {
   const { totalImages, totalStorageMB, loading } = useCDNStats();
 
   useEffect(() => {
-    document.title = "ZWRKS CDN – Fast static image CDN";
+    document.title = "FiveM Database CDN – Fast static image CDN";
   }, []);
 
   return (
@@ -33,10 +33,10 @@ const Index = () => {
             <div className="inline-flex items-center justify-center mb-6">
               <div className="elegant-card px-8 py-4 rounded-2xl">
                 <h1 className="text-6xl sm:text-7xl font-black tracking-tight text-gradient mb-2">
-                  ZWRKS CDN
+                  FiveM Database CDN
                 </h1>
                 <p className="text-lg text-muted-foreground font-medium">
-                  Elite Content Delivery Network
+                 Content Delivery Network
                 </p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Index = () => {
         <div className="container py-8 text-center">
           <div className="elegant-card inline-block px-8 py-4 rounded-xl">
             <p className="text-sm text-muted-foreground mb-2">
-              © {new Date().getFullYear()} ZWRKS CDN - Elite Content Delivery
+              © {new Date().getFullYear()} FiveM Database CDN - Content Delivery
             </p>
             <p className="text-xs text-muted-foreground/70">
               Powering the world's most demanding applications

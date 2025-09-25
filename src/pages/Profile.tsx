@@ -157,10 +157,10 @@ const Profile: React.FC = () => {
             <AvatarFallback>{username.charAt(0).toUpperCase()}</AvatarFallback>
           </Avatar>
           <div className="flex-1 grid gap-2">
-            <Label htmlFor="avatarUrl">CDN Image URL (ZWRKS CDN)</Label>
+            <Label htmlFor="avatarUrl">CDN Image URL (FiveM Database CDN)</Label>
             <Input
               id="avatarUrl"
-              placeholder="https://cdn.zwrks.com/uploads/users/username/avatar.png"
+              placeholder="https://cdn.FiveM Database.com/uploads/users/username/avatar.png"
               value={avatarUrl}
               onChange={(e) => setAvatarUrl(e.target.value)}
             />
@@ -197,7 +197,7 @@ const Profile: React.FC = () => {
 
       <aside className="rounded-lg border p-4">
         <p className="text-xs text-muted-foreground">
-          Need us to set up direct uploads to your ZWRKS CDN path (uploads/users/{username})? I can add an uploader that places files there if you share the CDN API details.
+          Need us to set up direct uploads to your FiveM Database CDN path (uploads/users/{username})? I can add an uploader that places files there if you share the CDN API details.
         </p>
       </aside>
     </main>

@@ -5,16 +5,16 @@ import { ArrowLeft, ExternalLink } from "lucide-react";
 
 const RemovalOfData = () => {
   useEffect(() => {
-    document.title = "Removal of Data Policy - ZWRKS CDN | Content & Data Removal Procedures";
+    document.title = "Removal of Data Policy - FiveM Database CDN | Content & Data Removal Procedures";
     
     // SEO meta tags
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'ZWRKS CDN Removal of Data Policy - Learn how to request removal of content or personal data, verification procedures, and legal takedown processes.');
+      metaDescription.setAttribute('content', 'FiveM Database CDN Removal of Data Policy - Learn how to request removal of content or personal data, verification procedures, and legal takedown processes.');
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'ZWRKS CDN Removal of Data Policy - Learn how to request removal of content or personal data, verification procedures, and legal takedown processes.';
+      meta.content = 'FiveM Database CDN Removal of Data Policy - Learn how to request removal of content or personal data, verification procedures, and legal takedown processes.';
       document.head.appendChild(meta);
     }
   }, []);
@@ -33,13 +33,13 @@ const RemovalOfData = () => {
       </header>
 
       <main className="flex-1 container py-8 max-w-4xl">
-        <h1 className="text-4xl font-bold mb-8 text-center">ZWRKS CDN – Removal of Data Policy</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center">FiveM Database CDN – Removal of Data Policy</h1>
         
         <div className="space-y-8 text-left">
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">1. Purpose and Scope</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">1.1</span> This Removal of Data Policy governs the procedures for requesting the removal of content or personal data from the ZWRKS CDN platform ("the Service").</p>
+              <p><span className="font-medium">1.1</span> This Removal of Data Policy governs the procedures for requesting the removal of content or personal data from the FiveM Database CDN platform ("the Service").</p>
               <p><span className="font-medium">1.2</span> This Policy forms part of, and must be read in conjunction with, our Terms of Service, Usage Policy, and Data Usage Policy.</p>
             </div>
           </section>
@@ -79,7 +79,7 @@ const RemovalOfData = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">4. Verification Process</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">4.1</span> ZWRKS CDN reserves the right to verify the identity of any individual submitting a removal request.</p>
+              <p><span className="font-medium">4.1</span> FiveM Database CDN reserves the right to verify the identity of any individual submitting a removal request.</p>
               <p><span className="font-medium">4.2</span> Verification may include the provision of account details, email confirmation, or documentary proof of rights ownership.</p>
               <p><span className="font-medium">4.3</span> Requests that cannot be verified will be rejected.</p>
             </div>
@@ -88,24 +88,24 @@ const RemovalOfData = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">5. Legal and Judicial Requests</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">5.1</span> Where a removal request is made pursuant to a valid governmental, law enforcement, or judicial order, ZWRKS CDN will act in compliance with such order.</p>
-              <p><span className="font-medium">5.2</span> In the event of ongoing legal proceedings, ZWRKS CDN reserves the right to retain the content in question until such proceedings are concluded, unless otherwise directed by a binding court order.</p>
+              <p><span className="font-medium">5.1</span> Where a removal request is made pursuant to a valid governmental, law enforcement, or judicial order, FiveM Database CDN will act in compliance with such order.</p>
+              <p><span className="font-medium">5.2</span> In the event of ongoing legal proceedings, FiveM Database CDN reserves the right to retain the content in question until such proceedings are concluded, unless otherwise directed by a binding court order.</p>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">6. Timeframes and Processing</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">6.1</span> ZWRKS CDN will make reasonable efforts to process verified removal requests promptly; however, no guarantee is made as to specific timeframes.</p>
-              <p><span className="font-medium">6.2</span> The retention or removal of content remains at the sole discretion of ZWRKS CDN, except where overridden by applicable law or court order.</p>
+              <p><span className="font-medium">6.1</span> FiveM Database CDN will make reasonable efforts to process verified removal requests promptly; however, no guarantee is made as to specific timeframes.</p>
+              <p><span className="font-medium">6.2</span> The retention or removal of content remains at the sole discretion of FiveM Database CDN, except where overridden by applicable law or court order.</p>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">7. Final Authority</h2>
             <div className="space-y-2 ml-4">
-              <p><span className="font-medium">7.1</span> ZWRKS CDN retains final authority to determine whether requested content will be removed, subject to legal obligations.</p>
-              <p><span className="font-medium">7.2</span> Decisions by ZWRKS CDN under this Policy are final unless superseded by a binding judicial decision.</p>
+              <p><span className="font-medium">7.1</span> FiveM Database CDN retains final authority to determine whether requested content will be removed, subject to legal obligations.</p>
+              <p><span className="font-medium">7.2</span> Decisions by FiveM Database CDN under this Policy are final unless superseded by a binding judicial decision.</p>
             </div>
           </section>
 

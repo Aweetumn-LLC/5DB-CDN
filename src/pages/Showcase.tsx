@@ -61,7 +61,7 @@ const Showcase = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    document.title = "Showcase - Websites Using ZWRKS CDN";
+    document.title = "Showcase - Websites Using FiveM Database CDN";
   }, []);
 
   return (
@@ -80,7 +80,7 @@ const Showcase = () => {
             </Button>
             <div className="h-6 w-px bg-border/50" />
             <h1 className="text-3xl font-bold text-gradient">
-              Websites Using ZWRKS CDN
+              Websites Using FiveM Database CDN
             </h1>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Showcase = () => {
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl">
               From gaming platforms to enterprise solutions, discover the websites 
-              that rely on ZWRKS CDN for their content delivery needs.
+              that rely on FiveM Database CDN for their content delivery needs.
             </p>
           </div>
         </div>
@@ -185,7 +185,7 @@ const Showcase = () => {
         <div className="container py-8 text-center">
           <div className="elegant-card inline-block px-8 py-4 rounded-xl">
             <p className="text-sm text-muted-foreground mb-2">
-              © {new Date().getFullYear()} ZWRKS CDN - Elite Content Delivery
+              © {new Date().getFullYear()} FiveM Database CDN - Elite Content Delivery
             </p>
             <p className="text-xs text-muted-foreground/70">
               Powering the world's most demanding applications

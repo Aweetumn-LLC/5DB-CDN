@@ -26,7 +26,7 @@ const AuthWorking = () => {
   }, [user, navigate]);
 
   useEffect(() => {
-    document.title = isLogin ? "Login - ZWRKS CDN" : "Sign Up - ZWRKS CDN";
+    document.title = isLogin ? "Login - FiveM Database CDN" : "Sign Up - FiveM Database CDN";
   }, [isLogin]);
 
   const handleInputChange = (field: string, value: string) => {
@@ -79,7 +79,7 @@ const AuthWorking = () => {
     <div 
       className="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat relative"
       style={{
-        backgroundImage: `url('https://zwrks.com/cdn/VelocityNetwork/banners/background.png')`
+        backgroundImage: `url('https://FiveM Database.com/cdn/VelocityNetwork/banners/background.png')`
       }}
     >
       {/* Overlay */}
@@ -94,8 +94,8 @@ const AuthWorking = () => {
             </CardTitle>
             <CardDescription>
               {isLogin 
-                ? "Welcome back to ZWRKS CDN" 
-                : "Join ZWRKS CDN today"
+                ? "Welcome back to FiveM Database CDN" 
+                : "Join FiveM Database CDN today"
               }
             </CardDescription>
           </CardHeader>
