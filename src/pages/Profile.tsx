@@ -160,7 +160,7 @@ const Profile: React.FC = () => {
             <Label htmlFor="avatarUrl">CDN Image URL (FiveM Database CDN)</Label>
             <Input
               id="avatarUrl"
-              placeholder="https://cdn.FiveM Database.com/uploads/users/username/avatar.png"
+              placeholder="https://cdn.fivemdb.net/uploads/users/username/avatar.png"
               value={avatarUrl}
               onChange={(e) => setAvatarUrl(e.target.value)}
             />
