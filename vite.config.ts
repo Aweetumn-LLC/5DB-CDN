@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   preview: {
-    allowedHosts: ["zwrks.com"], 
+    allowedHosts: ["cdn.fivemdb.net"], 
   },
   plugins: [
     react(),
